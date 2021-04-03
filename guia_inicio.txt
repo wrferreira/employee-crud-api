@@ -1,0 +1,22 @@
+---> Classe
+
+Employee
++ EmployeeId
++ Name
++ JobRole
++ Salary
++ DateOfBirth
++ EmployeeRegistration	
+
+=== User === (autenticação)
++ email/username
++ password
+
+
+No Repositório!!!
+--> api (Back-end) ---> PostgreSQL, Azure Functions, 
+Azure CosmosDB, SWA + GitHub Actions
+--> Angular (front) --->Bootstrap, SweerAlert, SWA
+--> Vue (front) --->Bootstrap, SweerAlert, SWA
+--> React (front) --->Bootstrap, SweerAlert, SWA
+--> Svelte (front) --->Bootstrap, SweerAlert, SWA
