@@ -2,7 +2,7 @@
   "name": "employee-crud-api",
   "version": "1.0.0",
   "description": "Aplicação CRUD API em node.js que alimentará 4 frameworks (Angular, Vue, React e Svelte)",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "nodemon",
     "lint": "eslint --ext .js -f ./nodemodules/eslint-friendly-formatter . --fix",
