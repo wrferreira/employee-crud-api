@@ -54,3 +54,11 @@ exports.updateEmployeeById = async (req, res) => {
         [name, job_role, salary, birth, employee_registration, employeeId])
     res.status(200).send({ message: 'Employee Updated Successfully!'})       
 }
+
+// ===> Método responsável por deletar um determinado 'Employee' pelo id:
+exports.deleteEmployeeById = async (req,res) => {
+    const employeeId = req.params.id
+    
+    const response = await db.query("DELETE FROM employee WHERE employee_id = $1",[employeeId])
+    res.status(200).send({ message: "Employee Deleted With Successfuly!" }) 
+}

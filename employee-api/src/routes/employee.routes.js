@@ -20,7 +20,9 @@ router.get('/employees', employeeController.listAllEmployees)
 router.get('/employees/:id', employeeController.findEmployeeById)
 
 // ===> rota responsável por atualizar um determinado 'Colaborador(a)' por ID: (PUT): localhost:3000/api/employees/:id
-router.put('/employee/:id', employeeController.updateEmployeeById)
+router.put('/employees/:id', employeeController.updateEmployeeById)
 
+// ===> rota responsável por deletar um determinado 'Colaborador(a)' por ID: (): localhost:3000/api/employees/:id
+router.delete('/employees/:id', employeeController.deleteEmployeeById)
 
 module.exports = router
