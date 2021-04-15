@@ -1,0 +1,14 @@
+ng new front-angular
+
+
+npm install bootstrap --save
+npm install @fortawesome/angular-fontawesome
+** config 'angular.json':
+  ==> "styles": [
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/sweetalert2/dist/sweetalert2.min.css"
+            ],
+
+npm install ng2-slim-loading-bar --save
+npm install rxjs-compat --save
